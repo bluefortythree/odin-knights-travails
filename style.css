@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin-left: -50px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    outline: 1px solid black;
+}
+
+
+.square {
+    height: 100px;
+    width: 100px;
+
+}
+
+.rank {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    width: 50px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+#file {
+    display: flex;
+}
+
+.file {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
